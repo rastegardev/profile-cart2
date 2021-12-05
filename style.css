@@ -1,0 +1,103 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #ECECEC;
+}
+.container {
+ margin: 20px;
+ margin-top: 40px;
+ width: 350px;
+ height: 650px;
+ background: #42445A;
+ border-radius: 50px;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.fa-long-arrow-alt-left {
+ padding: 10px;
+ color: #fff;
+ font-size: 25px;
+ cursor: pointer;
+ position: absolute;
+ top: 15px;
+ left: 20px;
+}
+.fa-heart {
+ padding: 10px;
+ color: #fff;
+ font-size: 25px;
+ cursor: pointer;
+ position: absolute;
+ top: 15px;
+ right: 55px;
+}
+.fa-cog {
+ padding: 10px;
+ color: #fff;
+ font-size: 25px;
+ cursor: pointer;
+ position: absolute;
+ top: 15px;
+ right: 20px;
+}
+.img {
+ width: 300px;
+ height: 300px;
+ background-size: cover;
+ position: absolute;
+ top: 20px;
+}
+.bottom-box {
+ margin: 0px;
+ width: 350px;
+ height: 330px;
+ background: #FFFFFF;
+ border-radius: 50px 50px 50px 50px;
+ font-family: 'Fredoka One', fantasy;
+ position: absolute;
+ bottom: 0;
+}
+.bottom-box h1 {
+ color: #232323;
+ padding: 20px;
+ padding: 30px 20px 10px 20px;
+ font-size: 2em;
+ font-weight: 500;
+}
+.bottom-box h5 {
+ color: #424242;
+ padding: 20px 20px 10px 20px;
+ font-size: 1.25em;
+ font-weight: 500;
+}
+.bottom-box p {
+ color: #525252;
+ padding: 10px 20px 10px 20px;
+ font-size: 16px;
+ text-align: justify;
+}
+.btnbox {
+ position: absolute;
+ bottom: 30px;
+ left: 25px;
+}
+.btn {
+ padding: 15px;
+ width: 300px;
+ color: #fff;
+ border: none;
+ border-radius: 100px;
+ background: #4A4A4A;
+ font-size: 1rem;
+ font-family: 'Fredoka One', fantasy;
+}
+.fa-paper-plane {
+ padding: 5px;
+}
